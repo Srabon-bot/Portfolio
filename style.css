@@ -1,12 +1,11 @@
-header nav{
+nav{
+    background-color: red;
     display: flex;
     justify-content: space-between;
-    align-items: center;
 }
-header nav ul{
+ul{
     display: flex;
     justify-content: space-between;
-    align-items: center;
     list-style: none;
     gap: 10px;
 }
