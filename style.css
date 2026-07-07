@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: "Open Sans", sans-serif;
@@ -9,34 +9,63 @@
 /* header{
     background-color: red;
 } */
-.common-btn{
+.common-btn {
     background-color: #fd6e0a;
-    padding: 10px 20px;
-    border-radius: 12px;
+    padding: 19px 17px;
+    border-radius: 5px;
     font-weight: bold;
-    font-size: 22px;
+    font-size: 20px;
     color: white;
-    border: none;
+    border: 2px solid transparent;
+    cursor: pointer;
+
+}
+
+.outline-btn {
+    background-color: white;
+    padding: 19px 17px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 20px;
+    border: 2px solid #fd6e0a;
+    color: #fd6e0a;
+    cursor: pointer;
+    margin-left: 30px;
+}
+
+.hero-left-btns {
+    margin-top: 30px;
 
 }
 
 
-nav{
+.dark2 {
+    color: #474747;
+    ;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+nav {
     display: flex;
     justify-content: space-between;
     max-width: 1200px;
-    margin: auto;
-    padding: 12px 0;
 }
-.logo{
+
+.logo {
     font-weight: bold;
     font-size: 20px;
 }
 
-.logo-b{
+.logo-b {
     color: #fd6e0a;
 }
-ul{
+
+ul {
     display: flex;
     justify-content: space-between;
     list-style: none;
@@ -44,7 +73,31 @@ ul{
     align-items: center;
 }
 
-ul li a{
+ul li a {
     text-decoration: none;
-     color: #474747;
+
+}
+
+.hero-parent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.hero-left h2 {
+    font-weight: bold;
+    font-size: 85px;
+    margin-bottom: 34px;
+}
+
+.hero-left p {
+    font-weight: 600;
+    font-size: 45px;
+}
+
+#hero-description {
+    color: #757575;
+    font-weight: 400;
+    font-size: 18px;
 }
